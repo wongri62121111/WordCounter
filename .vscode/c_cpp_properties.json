@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/Program Files (x86)/msys2/mingw64/bin/gcc.exe"
+        },
+        {
+            "name": "windowsCL",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:\\Programming\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar\\clang+llvm-18.1.8-x86_64-pc-windows-msvc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerPath": "cl.exe"
+        }
+    ],
+    "version": 4
+}
